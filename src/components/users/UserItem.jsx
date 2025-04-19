@@ -9,7 +9,7 @@ function UserItem({user :{login,avatar_url}}) {
         </div>
         <div>
           <h4 className='text-lg font-semibold'>{login}</h4>
-          <Link to={`/users/${login}`} className='text-blue-500 hover:underline text-sm'>
+          <Link to={`/user/${login}`} className='text-blue-500 hover:underline text-sm'>
            Visit Profile
           </Link>
         </div>
